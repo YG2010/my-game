@@ -1,0 +1,34 @@
+.animate {
+    animation-name: moveee;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+}
+
+@keyframes moveee {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+    20% {
+        transform: translateX(-350px) translateY(20px);
+    }
+
+    100% {
+        transform: translateX(300px) translateY(-40px);
+    }
+}
+
+body {
+    background: linear-gradient(rgb(143, 37, 134), rgb(25, 0, 255));
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.btnPick {
+    padding: 5px 20px;
+    background: radial-gradient(rgb(7, 202, 24), rgb(255, 153, 0));
+    border-radius: 20px;
+
+}
+

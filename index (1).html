@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <center>
+        <div id="gameId" hidden>
+            <p id="scoreId"></p>
+            <p id="timeId"></p>
+            <h1 id="randomNumber"></h1>
+            <button class="btnPick" onclick="checkPick(1)">1</button>
+            <button class="btnPick" onclick="checkPick(2)">2</button>
+            <button class="btnPick" onclick="checkPick(3)">3</button>
+        </div>
+       
+        <br>
+        <br>
+        <button id="startId" onclick="start()">Play</button>
+    </center>
+
+    <script src="index.js"></script>
+</body>
+</html>
